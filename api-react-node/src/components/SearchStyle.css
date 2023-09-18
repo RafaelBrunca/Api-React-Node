@@ -1,0 +1,78 @@
+/* Estilos para a página principal */
+.HomePageMain {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho de pesquisa */
+.search-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a barra de pesquisa */
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para cada item de roupa */
+.itens-roupa {
+    border: 5px solid #000000;
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.itens-roupa:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+}
+
+.itens-roupa p {
+    margin: 10px 0;
+}
+
+.itens-roupa button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.itens-roupa button:hover {
+    background-color: #0056b3;
+}
+
+.return-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.return-button:hover {
+    background-color: #c82333;
+}
